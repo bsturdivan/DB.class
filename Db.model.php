@@ -68,14 +68,4 @@ class Db {
 	
 }
 
-/*$d = array('name' => 'Jeff', 'email' => 'jeff@jeff.com', 'descriptions' => 'test 2');
-$d2 = array('name' => 'Becky', 'email'=> 'beckster@gmail.com', 'descriptions' => 'Becky the dreamer Im glad you still dream');
-$procedure = array(
-	'test' => 'insert into test (name, email, descriptions) value(:name, :email, :descriptions)',
-	'test2' => 'insert into test (name) value(:name)',
-	'select1' => 'select * from test'
-);
-$bdb = new Abstraction($procedure);
-$dt = $bdb->selectData('select1');
-var_dump($dt);*/
 ?>
